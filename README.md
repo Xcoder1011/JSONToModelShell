@@ -1,0 +1,2 @@
+# JSONToModelShell
+自动化python脚本，能轻松实现JSON转model文件，支持json字符串、get请求url两种方式
