@@ -9,7 +9,6 @@ yourModelBaseClassName = 'BaseModel'
 
 默认是不加前缀，并且继承于NSObject
 
-----------
 
 Usage:
 ===================
@@ -27,7 +26,6 @@ Usage:
 > - 输入Model名称(如果从url获取输入none)，例如输入Banner
 > - 脚本执行结束，生成需要的.h和.m文件。
 
-> - Clearing your browser's data may **delete all your local documents!** Make sure your documents are synchronized with **Google Drive** or **Dropbox** (check out the [<i class="icon-refresh"></i> Synchronization](#synchronization) section).
 
 
 **Terminal Steps:**
@@ -73,6 +71,7 @@ HTTP GET Url【1】
 > - 输入JSON字符串
 > - 输入Model名称，例如输入TopBanner
 > - 脚本执行结束，生成需要的.h和.m文件。
+
 
 
 **Terminal Steps:**
