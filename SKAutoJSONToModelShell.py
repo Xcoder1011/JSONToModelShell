@@ -209,7 +209,7 @@ def generationFileByDict(fileName, aDict, needDicKey, needGenFile):
     #write .h File header
     if(needGenFile > 0):
         OjectCFile.write('//\n// Auto Create JsonModel File\n// ' + className + '.h' +  '\n//\n//\n\n')
-        OjectCFile.write('#import "NSObject.h"\n')
+        OjectCFile.write('#import <Foundation/Foundation.h>\n')
 #       OjectCFile.write('#import "JSONModel.h"\n')
 
         #need protocol
@@ -243,32 +243,32 @@ def generationFileByDict(fileName, aDict, needDicKey, needGenFile):
             LineContent = ''
             if(len(protocolKeyJsonM) > 0):
                 generationFileByDict(getFileKey(key), parseDicFromList(value), 2, 1)
-                LineContent = '\n@property (nonatomic, strong) ' + ListKey + '<Optional, ' + protocolKeyJsonM + '> *' + key + ';\n'
+                LineContent = '\n@property (nonatomic, strong) ' + ListKey  + '<' + protocolKeyJsonM  + ' >' '  *' + key + ';\n'
             else:
-                LineContent = '@property (nonatomic, strong) ' + ListKey + '<Optional> *' + key + ';\n'
+                LineContent = '@property (nonatomic, strong) ' + ListKey + '  *' + key + ';\n'
             if(needGenFile > 0):
                 OjectCFile.write(LineContent)
             #若是数组会加入默认key
 
         elif(isinstance(value, str) or isinstance(value, unicode)):
-            LineContent = '@property (nonatomic, strong) ' + Strkey + '<Optional> *' + key + ';\n'
+            LineContent = '@property (nonatomic, copy  ) ' + Strkey + '  *' + key + ';\n'
             if(needGenFile > 0):
                 OjectCFile.write(LineContent)
 
         elif(isinstance(value, dict)):
             objectKey = generationFileByDict(getFileKey(key), value, 1, 1)
-            LineContent = '\n@property (nonatomic, strong) ' + objectKey + '<Optional> *' + key + ';\n'
+            LineContent = '\n@property (nonatomic, strong) ' + objectKey + '  *' + key + ';\n'
             if(needGenFile > 0):
                 OjectCFile.write(LineContent)
 
         elif(isinstance(value, int) or isinstance(value, long) or isinstance(value, float)):
-            LineContent = '@property (nonatomic, strong) ' + IntKey + '<Optional> *' + key + ';' + '\n'
+            LineContent = '@property (nonatomic, strong) ' + IntKey + '  *' + key + ';' + '\n'
             if(needGenFile > 0):
                 OjectCFile.write(LineContent)
 
         else:
             #Null or other Object
-            LineContent = '@property (nonatomic, strong) ' + Strkey + '<Optional> *' + key + ';\n'
+            LineContent = '@property (nonatomic, strong) ' + Strkey + '  *' + key + ';\n'
             if(needGenFile > 0):
                 OjectCFile.write(LineContent)
 

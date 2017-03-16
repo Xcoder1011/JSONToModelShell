@@ -4,7 +4,7 @@
 //
 //
 
-#import "NSObject.h"
+#import <Foundation/Foundation.h>
 
 @protocol ChildTopicsItemModel
 
@@ -14,6 +14,6 @@
 
 @interface ChildTopicsItemModel : NSObject
 
-@property (nonatomic, strong) NSString<Optional> *unknow_object_type_in_listObject;
+@property (nonatomic, copy  ) NSString  *unknow_object_type_in_listObject;
 
 @end

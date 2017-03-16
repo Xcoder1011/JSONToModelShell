@@ -4,7 +4,7 @@
 //
 //
 
-#import "NSObject.h"
+#import <Foundation/Foundation.h>
 #import "BannerResponseItemModel.h"
 
 
@@ -12,6 +12,6 @@
 @interface BannerModel : NSObject
 
 
-@property (nonatomic, strong) NSArray<Optional, BannerResponseItemModel> *bannerResponse;
+@property (nonatomic, strong) NSArray<BannerResponseItemModel >  *bannerResponse;
 
 @end

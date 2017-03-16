@@ -31,9 +31,10 @@ Usage:
 **Terminal Steps:**
 
 ```
-KUNdeMacBook-Pro:JSONToModelShell KUN$ ls
-README.md			SKAutoJSONToModelShell.py
-KUNdeMacBook-Pro:JSONToModelShell KUN$ python SKAutoJSONToModelShell.py 
+KUNdeiMac:JSONToModelShell kun$ ls
+Banner				SKAutoJSONToModelShell.py
+README.md
+KUNdeiMac:JSONToModelShell kun$ python SKAutoJSONToModelShell.py 
 选择输入的内容类型
 HTTP GET Url【1】
 或者
@@ -57,6 +58,8 @@ HTTP GET Url【1】
 生成ChildTopicsmodel中
 生成DealParamsmodel中
 脚本执行结束，请复制model文件夹到您需要的地方
+KUNdeiMac:JSONToModelShell kun$ 
+
 ```
 
 
@@ -77,7 +80,10 @@ HTTP GET Url【1】
 **Terminal Steps:**
 
 ```
-KUNdeMacBook-Pro:JSONToModelShell KUN$ python SKAutoJSONToModelShell.py 
+KUNdeiMac:JSONToModelShell kun$ ls
+Banner				SKAutoJSONToModelShell.py
+README.md
+KUNdeiMac:JSONToModelShell kun$ python SKAutoJSONToModelShell.py 
 选择输入的内容类型
 HTTP GET Url【1】
 或者
@@ -86,69 +92,6 @@ HTTP GET Url【1】
 输入Model名称: TopBanner
 输入Json内容: 
 完成后以回车结束
-[
-{
-"banner_type": 1,
-"category_name": "",
-"child_topics": [],
-"deal_params": {
-"show_saleout": 0
-},
-"deal_url": "",
-"detail": "",
-"id": 12989,
-"image_big_android_url": "http://z3.tuanimg.com/imagev2/wxyy/720x250.cf73bd928f01c2830766e430ddc4e4d0.jpg",
-"image_big_ios_url": "http://z3.tuanimg.com/imagev2/wxyy/640x244.e3407423fdb17a22e665190ad64cd006.jpg",
-"image_category_android_url": "",
-"image_category_ios_url": "",
-"image_largest_android_url": "",
-"image_largest_ios_url": "",
-"image_little_android_url": "",
-"image_little_ios_url": "",
-"image_middle_android_url": "",
-"image_middle_ios_url": "",
-"image_plugin_url": "",
-"image_registration_android_url": "",
-"image_registration_ios_url": "",
-"image_youpinhui_url": "",
-"is_plugin": 0,
-"parent_url_name": "",
-"show_model": 0,
-"title": "开学季",
-"value": "",
-"wap_url": "http://hd.zhe800.com/xindacu/app/kxj0828"
-},
-{
-"banner_type": 1,
-"category_name": "",
-"child_topics": [],
-"deal_params": {
-"show_saleout": 0
-},
-"deal_url": "",
-"detail": "",
-"id": 12993,
-"image_big_android_url": "http://z3.tuanimg.com/imagev2/wxyy/720x250.479aa9a731dc27d86d533e9a4eb88d98.png",
-"image_big_ios_url": "http://z3.tuanimg.com/imagev2/wxyy/640x244.6e040e3a8a60c5845c218e78a8f0d7a0.png",
-"image_category_android_url": "",
-"image_category_ios_url": "",
-"image_largest_android_url": "",
-"image_largest_ios_url": "",
-"image_little_android_url": "",
-"image_little_ios_url": "",
-"image_middle_android_url": "",
-"image_middle_ios_url": "",
-"ima "",
-"image_registration_android_url": "",
-"image_registration_ios_url": "",
-"image_youpinhui_url": "",
-"is_plugin": 0,
-"parent_url_name": "",
-"show_model": 0,
-"title": "聚专题",
-"value": "",
-"wap_url": "http://hd.zhe800.com/xindacu/app/jjtwxd"
-},
 {
 "banner_type": 1,
 "category_name": "",
@@ -179,54 +122,14 @@ HTTP GET Url【1】
 "title": "省薪说 家装好物",
 "value": "",
 "wap_url": "http://hd.zhe800.com/xindacu/app/xrcd0621"
-},
-{
-"banner_type": 1,
-"category_name": "",
-"child_topics": [],
-"deal_params": {
-"show_saleout": 0
-},
-"deal_url": "",
-"detail": "",
-"id": 13015,
-"image_big_android_url": "http://z3.tuanimg.com/imagev2/wxyy/720x250.b28239939c38010efcf6f1ab30e0a521.jpg",
-"image_big_ios_url": "http://z3.tuanimg.com/imagev2/wxyy/640x244.bb39fc052f4612e5da73db6394956f84.jpg",
-"image_category_android_url": "",
-"image_category_ios_url": "",
-age_largest_android_url": "",
-"image_largest_ios_url": "",
-"image_little_android_url": "",
-"image_little_ios_url": "",
-"image_middle_android_url": "",
-"image_middle_ios_url": "",
-"image_plugin_url": "",
-"image_registration_android_url": "",
-"image_registration_ios_url": "",
-"image_youpinhui_url": "",
-"is_plugin": 0,
-"parent_url_name": "",
-"show_model": 0,
-"title": "翩翩鞋尖",
-"value": "",
-"wap_url": "http://hd.zhe800.com/xindacu/app/dppysq0828"
 }
-]
 
 生成TopBannermodel中
-生成TopBannerResponsemodel中
-生成ChildTopicsmodel中
-生成ChildTopicsmodel中
-生成DealParamsmodel中
-生成TopBannerResponsemodel中
-生成ChildTopicsmodel中
-生成ChildTopicsmodel中
-生成DealParamsmodel中
-生成TopBannerResponsemodel中
 生成ChildTopicsmodel中
 生成DealParamsmodel中
 生成ChildTopicsmodel中
 生成ChildTopicsmodel中
 生成DealParamsmodel中
 脚本执行结束，请复制model文件夹到您需要的地方
+KUNdeiMac:JSONToModelShell kun$ 
 ```
